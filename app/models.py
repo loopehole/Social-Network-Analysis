@@ -31,5 +31,5 @@ class Neo4jConnection:
                 session.close()
         return response
 
-# Replace 'your_password' with your actual Neo4j password
+# Replace your credentials with your actual Neo4j which is running currently
 db = Neo4jConnection(uri="neo4j://localhost:7687", user="neo4j", pwd="Pass@1995")
