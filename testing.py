@@ -1,5 +1,6 @@
 from neo4j import GraphDatabase
 
+# Make sure to add edit your proper connection configuration for testing here.
 def test_connection():
     uri = "neo4j://localhost:7687"
     user = "neo4j"
