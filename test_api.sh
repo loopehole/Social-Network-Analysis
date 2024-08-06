@@ -1,4 +1,6 @@
 #!/bin/bash
+# chmod +x test_api.sh -> make it executable
+# ./test_api.sh -> to run this script
 
 # Function to make a POST request to add a user
 add_user() {
